@@ -1,0 +1,140 @@
+@import '../shared/style';
+
+
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.item-header {
+    background-color: #f7f7f7;
+    padding: .5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    margin-bottom: 0;
+    font-size: 14px;
+}
+
+.alert {
+    position: relative;
+    padding: 0.25rem;
+    text-align: center;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+}
+
+.alert p {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.item-work {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.item-work > div {
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0.35rem;
+}
+
+.item-work > div:hover > .media {
+    background-color: #f7f7f7;
+}
+
+.media-body {
+    padding-left: 10px;
+}
+
+.resume-completed {
+    margin-right: 20px;
+    padding: .3rem .5rem;
+    border-radius: 8px;
+}
+
+.delay {
+    color: red;
+    position: absolute;
+    right: 5px;
+    width: 60px;
+    margin-top: -14px;
+}
+
+.delay-possible {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.strong {
+    font-weight: bold;
+}
+
+.media img {
+    display: block;
+    margin: auto;
+}
+
+h5 {
+    font-size: 16px !important;
+    font-weight: 600;
+}
+
+.content-image {
+    border-right: 1px solid rgba(0, 0, 0, .125);
+}
+
+.card-header {
+    padding: 0.25rem;
+}
+
+.card-header h5 {
+    margin-bottom: 0;
+    line-height: 32px;
+}
+
+.resume-completed p {
+    padding-top: 4px;
+}
+
+.navigation_pages {
+    margin-right: 10px;
+}
+
+.navigation_pages span {
+    font-weight: 700;
+    font-size: 18px;
+    padding-right: 4px;
+    padding-left: 4px;
+    cursor: pointer;
+}
+
+.card-body, .card {
+    border: none;
+}
+
+.card-header {
+    border-bottom: none;
+}
+
+.card-header.bg-info {
+    background-color: #2db9af !important;
+}
+
+.card-header.bg-info h5,
+.card-header.bg-info span,
+.card-header.bg-info p {
+    color: #ffffff;
+}
+
+.card-header .alert-success, .card-header .alert-danger {
+    /* background-color: transparent; */
+}
+
+.card-header .alert-success strong,
+.card-header .alert-danger strong {
+    font-size: 12px;
+}
